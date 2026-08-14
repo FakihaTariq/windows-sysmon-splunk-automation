@@ -1,0 +1,14 @@
+# Secrets
+*.env
+.env
+
+# Generated reports (regenerate on demand rather than comitting)
+soc_report_generator_*.html
+
+# Python
+__pycache__/
+*/pyc
+
+# OS
+.DS_Store
+Thumbs.db
