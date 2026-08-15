@@ -37,7 +37,7 @@ response = requests.get(f"{SPLUNK_HOST}/services/server/info", headers=headers, 
 print("Status code:", response.status_code)
 ```
 
-### Developed and Ran Script
+### 3. Developed and Ran Script
 Created [SOC Report Generator](../scripts/soc_report_generator.py) script to generate reports from live SIEM data in a single command
 
 * Script is structured around a configurable list of report sections making it easy to modify queries for different event types
@@ -69,7 +69,8 @@ The polling loop tracked search execution until isDone returned True, triggering
 
 ### Automated HTML Report Generation
 Executing python scripts/soc_report_generator.py compiled search results into a timestamped HTML daily SOC summary report (soc_report_YYYY-MM-DD_HH-MM.html).
-![](../screenshots/10_generated_html_report)
+
+![](../screenshots/10_generated_html_report.png)
 
 ## Next Step
 Check out [SOC Report Generator](../scripts/soc_report_generator.py) script to see how it works
