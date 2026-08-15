@@ -61,7 +61,7 @@ Relaunched PowerShell using Run as Administrator and re-executed the command suc
 
 ## Phase Results & Verification
 auditpol confirmed that Logon Success and Failure auditing are active across the system
-![](../screenshots/01_auditpol_verification.png
+![](../screenshots/01_auditpol_verification.png)
 
 ## Next Steps
 Proceed to Phase 2: Local Event Log Analysis & Attack Simulations to generate authentication failures and analyze local Windows Security logs.
